@@ -9,6 +9,8 @@ https://github.com/ImJimmi/JUMP Metering and utility classes built on top of JUC
 https://github.com/ElandaSunshine/Jaut Collection of lower level modules complementing JUCE
 https://github.com/Chowdhury-DSP/chowdsp_utils Large collection of utilities including dsp, presets, json
 https://github.com/drowaudio/drowaudio Older, but very large collection of utilities by the Tracktion superstar 
+https://github.com/jpcima/ysfx JSFX hosting library incl. example plugin
+https://github.com/surge-synthesizer/sst-filters Surge filters as a separate library
 
 ## Templates
 
@@ -27,11 +29,18 @@ https://github.com/Chowdhury-DSP/ChowKick Kick synthesizer based on old-school d
 https://github.com/monocasual/giada Your Hardcore Loop Machine
 https://github.com/Princeton-CDH/bitKlavier Bitklavier is a digital prepared piano
 https://github.com/BespokeSynth/BespokeSynth Cross-Platform Modular synth instrument/environment
-https://github.com/surge-synthesizer/monique-monosynth Mono synth on JUCE 7
+https://github.com/surge-synthesizer/monique-monosynth Mono synth with morph mixer
 https://github.com/khrykin/BlackBird Single Oscillator synth
 https://github.com/paynebc/tunefish Virtual Analog synth
 https://github.com/kofigumbs/typebeat MacOS only Rust-backed Keyboard sequencer, sampler, and synth
 https://github.com/mtytel/helm Free, Open source, cross platform 32-voice polyphonic synth
+https://github.com/asb2m10/dexed Yamaha DX7 FM multi patform / multi format plugin
+https://github.com/surge-synthesizer/shortcircuit-xt Sampler
+https://github.com/surge-synthesizer/tuning-workbench-synth Simple microtonal synth
+https://github.com/reales/OB-Xd Virtual Analog modelled Oberheim OB-X with a few extras
+https://github.com/jpcima/ADLplug 2 FM synths based on OPL3 and OPN2 sound chip emulations
+https://github.com/TheWaveWarden/odin2  24-voice polyphonic synth with filter emulations and modulation matrix
+https://github.com/jpcima/Hera June 60 
 
 ## Effects 
 
@@ -49,6 +58,8 @@ https://github.com/szkkng/jg-granular Streaming granular synthesis effect
 https://git.iem.at/audioplugins/IEMPluginSuite Large suite of plugins, including Ambisonic
 https://github.com/GuitarML/SmartGuitarAmp Neural Network WaveNet modelled guitar amps
 https://github.com/GuitarML/SmartGuitarPedal Neural Network WaveNet modelled guitar pedals
+https://github.com/JanosGit/Schrammel_OJD Audio plugin model of a modern classic overdrive pedal
+https://github.com/lukemcraig/OvertoneFilter Emphasize MIDI-selected harmonics of an audio signal
 
 ## Metering 
 
@@ -56,14 +67,17 @@ https://github.com/ffAudio/Frequalizer Equalizer using JUCE's dsp module
 https://github.com/ffAudio/ff_meters LED meters for JUCE audio buffers
 https://github.com/SoundDevelopment/sound_meter Resizable efficient peak meters
 
-## Midi Plugins
+## Midi 
 
 https://github.com/stfufane/Midi-Bass-Pedal-Chords Map chords to your MIDI bass pedal
 https://github.com/vsicurella/SuperVirtualKeyboard Microtonal keyboard layout
 https://github.com/rclement/meeblip-controller Midi controller for the Meeblip Anode synth
 https://github.com/trackbout/ripchord Cross platform plugin to create and remix chord progressions
-https://github.com/lukemcraig/OvertoneFilter Emphasize MIDI-selected harmonics of an audio signal
-
+https://github.com/surge-synthesizer/b-step Chord sequencer
+https://github.com/surge-synthesizer/stochas Probabilistic sequencer
+https://github.com/gbevin/SendMIDI Cross-platform tool to send MIDI messages from the command line
+https://github.com/gbevin/ReceiveMIDI Cross-platform tool to monitor and receive MIDI messages on the command line
+  
 ## UI 
 
 https://github.com/szkkng/modern-dial Nice clean example of a rotary "slider"
@@ -71,7 +85,9 @@ https://github.com/szkkng/numberbox Clean Ableton style "slider" with tutorial
 https://github.com/ffAudio/foleys_gui_magic WYSWYG plugin editor letting you create JUCE GUIs without coding
 https://github.com/HackAudio/hack_audio_gui Hack Audio's custom components
 https://github.com/christofmuc/juce-widgets Unsorted collection of "widgets"
-https://github.com/bgporter/animator Animation control JUCE module; implements the classic easing curves and some new ones
+https://github.com/bgporter/animator Animation module implementing classic easing curves and some new ones
+https://github.com/fefanto/fontaudio Icon toolkit for audio with permissive licensing
+https://github.com/JanosGit/Resvg4JUCE Wrapper for the resvg rendering library
 
 ## Tooling & Debugging
 
@@ -85,17 +101,20 @@ https://github.com/AndrewJJ/DSP-Testbench Test your dsp with signal sources, rou
 ## Frameworks
 
 https://github.com/pierreguillot/Camomile A meta-plugin that embeds Pure Data
+https://github.com/timothyschoen/PlugData Pure Data as a plugin, with a new GUI
 https://github.com/christophhart/HISE The open source framework for sample based instruments
 https://github.com/benkuper/Chataigne Real-time communication and syncing with many other technologies
-https://github.com/Celemony/JUCE_ARA JUCE fork that provides Audio Random Access (ARA) support
 https://github.com/asb2m10/plugincollider Plugin that embeds SuperCollider
 https://github.com/JoshMarler/react-juce Cross-platform native apps with React.js and JUCE
+https://github.com/rorywalsh/cabbage Framework for developing plugins with the Csound programming language
 
 ## DSP
 
 https://github.com/olilarkin/juce_faustllvm JUCE Module for embedding the libfaust JIT compiler
 https://github.com/juandagilc/Audio-Effects Collection of Audio Effects examples from a book
 https://github.com/adamski/pitch_detector Pitch estimation based on YIN
+https://github.com/surge-synthesizer/sst-waveshapers Surge waveshapers as a separate library
+https://github.com/Stenzel/SimpleVocoder Leaky autocorrelation vocoder
 
 ## Networking & Cryptography
 
@@ -115,6 +134,12 @@ https://github.com/Sinecure-Audio/TestsTalk Catch2 Examples from ADC 2020 talk
 https://github.com/sudara/melatonin_parameters Log parameter conversion and formatting example with tests
 https://github.com/Focusrite-Novation/juce-end-to-end End to end functional testing via js
 
+## Educational
+
+https://github.com/tobanteAudio/juce-cookbook JUCE Cookbook
+https://github.com/TheAudioProgrammer/juceSynthFramework Build a JUCE synth step by step with Josh
+https://github.com/jatinchowdhury18/plugin-ci-example JUCE plugin CI examples for Gitlab, GitHub, Azure
+
 ## Hosts & DAWs
 
 https://github.com/Tracktion/tracktion_engine The one, the only, the engine that JUCE was once extracted from
@@ -125,12 +150,6 @@ https://github.com/fedden/RenderMan Interactive "command line" host backed by Ma
 https://github.com/DropSnorz/OwlPlug Cross-platform plugin manager
 https://github.com/jatinchowdhury18/PluginRunner Run audio through a plugin from the CLI on windows
 
-## Educational
-
-https://github.com/tobanteAudio/juce-cookbook JUCE Cookbook
-https://github.com/TheAudioProgrammer/juceSynthFramework Build a JUCE synth step by step with Josh
-https://github.com/jatinchowdhury18/plugin-ci-example JUCE plugin CI examples for Gitlab, GitHub, Azure
-
 ## Integrations
 
 https://github.com/kunitoki/popsicle Bridging JUCE to python
@@ -140,3 +159,8 @@ https://github.com/ianacaburian/AbletonLink_JuceSampler Ableton Link syncing
 https://github.com/free-audio/clap-juce-extensions CLAP plugin support
 https://github.com/MTG/freesound-juce Freesound.org API implementation
 https://github.com/lvtk/jlv2 LV2 plugin hosting
+https://github.com/atsushieno/aap-juce Android Audio Plugin (AAP) support with lots of plugin ports
+
+## Forks
+https://github.com/Celemony/JUCE_ARA JUCE fork that provides Audio Random Access (ARA) support
+https://github.com/soundradix/JUCE Fork with AAX AudioSuite support and other features and fixes
